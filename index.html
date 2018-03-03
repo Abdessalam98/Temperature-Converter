@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr|en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Convertisseur de température</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+    <div class="main-form uk-position-center uk-container-center text-center">
+        <img src="assets/imgs/logo.png" width="100px" alt="logo">
+        <div class="hello">
+            <h4>
+                <span>Convertisseur de température</span>
+            </h4>
+            <small>Built with JavaScript</small>
+        </div>
+        <form class="uk-form-width-large">
+            <fieldset class="uk-fieldset">
+                <div class="uk-mr-custom">
+                    <div class="uk-inline">
+                        <i class="uk-form-icon cs">°C</i>
+                        <input id="celsius" class="uk-input uk-form-width-large celsius" type="text" placeholder="Température en Celsius">
+                    </div>
+                </div>
+                <div class="uk-mr-custom arrows">
+                    <div class="uk-inline">
+                        <img src="assets/imgs/arrows.png" width="30px" alt="arrows">
+                    </div>
+                </div>
+                <div class="uk-mr-custom">
+                    <div class="uk-inline">
+                        <i class="uk-form-icon ft">°F</i>
+                        <input id="fahrenheit" class="uk-input uk-form-width-large fahrenheit" type="text" placeholder="Température en Fahrenheit">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
