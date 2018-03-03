@@ -1,3 +1,5 @@
+![logo](pics/logo.png)
+
 # Temperature-Converter
 
 Celsius ⇋ Fahrenheit converter
